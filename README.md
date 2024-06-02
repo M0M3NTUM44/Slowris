@@ -24,3 +24,14 @@ This tool performs a Slowloris attack on a specified web server. Slowloris is a 
 
 ```bash
 python3 slowloris.py <website> <port>
+```
+
+## Example
+
+```bash
+python3 slowloris.py example.com 80
+```
+This command starts a Slowloris attack on example.com at port 80 with the default number of sockets and keeps the connections alive by sending periodic headers.
+
+## Disclaimer
+This tool is intended for educational purposes only. The use of this tool against systems without permission is illegal and unethical. The author is not responsible for any misuse of this tool.
